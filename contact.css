@@ -1,0 +1,86 @@
+body{
+    margin:0;
+    padding:0;
+    border:none; 
+    font-family:"Courier New",Courier,monospace;
+}
+#topp{
+    height:100vh;
+    width:100%;
+    margin:0;
+    padding:0;
+    border:none;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('bg8.jpg');
+    z-index:-1;
+    background-size:cover;
+}
+#headerr{
+    margin-left:60%;
+    border:0px;
+    padding:10px;
+    padding-top:30px;
+    position:fixed;
+    color:white;
+    z-index:1;
+    width:100%;
+}
+#headerr a{
+    padding-right:1.9%;
+    padding-left:1.9%;
+    font-weight:800;
+    font-size:20px;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+#card{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:30%;
+    right:30%;
+    margin:auto;
+    height:600px;
+    z-index:1;
+    background-color:transparent;
+    display:inline-block;
+    border-radius:5px;
+    color:#3AC594;
+}
+h1{
+    text-align:center;
+    font-size:40px;
+    font-family:"Times New Roman",Times,serif;
+}
+label{
+    margin-left:10%;
+}
+textarea{
+    margin-left:10%;
+    width:80%;
+    resize:none;
+    height:20px;
+    border-radius:5px;
+    outline:none;
+    font-size:17px;
+}
+#Bodyy{
+    height:200px;
+}
+#sendm{
+    margin-left:40%;
+    width:20%;
+    background-color:#3AC594;
+    border:none;
+    color:white;
+    border:1px solid;
+    border-radius:10px;
+    outline:none;
+    font-family:"Courier New",Courier,monospace;
+    height:50px;
+    font-size:15px;
+}
+#sendm:hover{
+    background-color:green;
+}
