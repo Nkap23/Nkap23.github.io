@@ -16,18 +16,18 @@ body{
     position:fixed;
 }
 #headerr{
-    margin-left:60%;
+    margin-left:65%;
     border:0px;
     padding:10px;
     padding-top:30px;
-    position:fixed;
+    /*position:fixed;*/
     color:white;
     z-index:2;
-    width:100%;
+    background:transparent;
 }
 #headerr a{
-    padding-right:1.9%;
-    padding-left:1.9%;
+    padding-right:4%;
+    padding-left:4%;
     font-weight:800;
     font-size:20px;
 }
@@ -124,14 +124,34 @@ figure{
 }
 #extraspace{
     background:transparent;
-    height:800px;
+    height:620px;
+}
+#resumeb{
+    text-align:center;
+}
+#resumebutton{
+    background-color:#0045c3;
+    color:white;
+    border:none;
+    height:40px;
+    width:80px;
+    border-radius:10px;
+    border:1px solid;
+    outline:none;
+    font-family:"Courier New",Courier,monospace;
+    font-size:15px;
+}
+#resumebutton:hover{
+    background-color:blue;
 }
 #bottomm{
     top:0;
     bottom:0;
     width:80%;
     margin:auto;
+    margin-top:10px;
     height:500px;
     background-color:white;
     border-radius:5px;
+    display:none;
 }
