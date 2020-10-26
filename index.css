@@ -150,8 +150,29 @@ figure{
     width:80%;
     margin:auto;
     margin-top:10px;
-    height:500px;
+    height:1000px;
     background-color:white;
     border-radius:5px;
     display:none;
+}
+#col1{
+    padding-top:50px;
+    flex:25%;
+    background-color:#0045c3;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    color:white;
+    text-align:center;
+}
+#ini{
+    font-size:150px;
+    text-align:right;
+}
+#col2{
+    flex:75%;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+#extraspaceb{
+    height:30px;
 }
