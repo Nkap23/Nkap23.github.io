@@ -5,3 +5,4 @@ function hidee(obj)
     var el2=document.getElementById('bottomm');
     el2.style.display='block';
 }
+
