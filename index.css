@@ -168,14 +168,17 @@ figure{
     bottom:0;
     width:80%;
     margin:auto;
-    margin-top:1.26vh;
-    height:189.39vh;
-    background-color:white;
+    background-color:transparent;
     border-radius:0.631vh;
     display:none;
     position:relative;
     top:20vh;
+    height:155vh;
+}
+#resumeb a{
+    text-decoration:none;
+    color:white;
 }
 #extraspaceb{
-    height:10vh;
+    height:23vh;
 }
