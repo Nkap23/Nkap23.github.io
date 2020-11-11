@@ -164,21 +164,10 @@ figure{
 #resumebutton:hover{
     background-color:blue;
 }
-#bottomm{
-    bottom:0;
-    width:80%;
-    margin:auto;
-    background-color:transparent;
-    border-radius:0.631vh;
-    display:none;
-    position:relative;
-    top:20vh;
-    height:155vh;
-}
 #resumeb a{
     text-decoration:none;
     color:white;
 }
 #extraspaceb{
-    height:23vh;
+    height:5vh;
 }
