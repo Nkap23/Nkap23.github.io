@@ -156,12 +156,16 @@ figure{
     #headerr{
         text-align:center;
     }
+    #headerr a{
+        font-size:2vh;
+    }
     #resumeb{
-        top:15vh;
+        top:13vh;
     }
     #card{
         width:90%;
         left:5%;
+        top:8vh;
     }
 }
 @media only screen and (max-width:575px) {
