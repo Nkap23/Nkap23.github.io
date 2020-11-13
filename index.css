@@ -50,14 +50,9 @@ body{
     text-decoration:none;
     color:white;
 }
-@media only screen and (max-width: 650px) {
-    #headerr{
-        text-align:center;
-    }
-}
 #card{
     position:relative;
-    top:15vh;
+    top:10vh;
     bottom:15vh;
     margin:auto;
     height:auto;
@@ -154,7 +149,16 @@ figure{
 #resumeb{
     text-align:center;
     position:relative;
-    top:20vh;
+    top:17vh;
+    padding-bottom:5vh;
+}
+@media only screen and (max-width: 650px) {
+    #headerr{
+        text-align:center;
+    }
+    #resumeb{
+        top:15vh;
+    }
 }
 #resumebutton{
     background-color:#0b486b;
@@ -174,7 +178,4 @@ figure{
 #resumeb a{
     text-decoration:none;
     color:white;
-}
-#extraspaceb{
-    height:5vh;
 }
