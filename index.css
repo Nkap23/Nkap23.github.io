@@ -159,6 +159,10 @@ figure{
     #resumeb{
         top:15vh;
     }
+    #card{
+        width:90%;
+        left:5%;
+    }
 }
 #resumebutton{
     background-color:#0b486b;
