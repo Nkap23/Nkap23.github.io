@@ -30,7 +30,7 @@ body{
     padding-top:3.78vh;
     margin:0;
     color:white;
-    z-index:2;
+    z-index:20;
     background:transparent;
     position:fixed;
     top:-0.1vh;
