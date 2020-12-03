@@ -106,21 +106,16 @@ body{
     background-color:white;
     border-radius:0.63vh;
     overflow:auto;
+    padding-left:10%;
+    padding-right:10%;
 }
 #titlee{
     font-weight:800;
     font-size:2.52vh;
-    margin-left:10%;
 }
 hr{
-    margin-left:10%;
-    margin-right:10%;
     border:none;
     border-top:0.126vh solid;
-}
-p{
-    margin-left:10%;
-    margin-right:10%;
 }
 input{
     outline:none;
