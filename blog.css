@@ -44,7 +44,7 @@ body{
     padding-bottom:5vh;
 }
 #col1{    
-    margin-left:25%;
+    margin-left:30%;
     margin-right:1%;
     flex:50%;
     background-color:white;
@@ -52,7 +52,7 @@ body{
     height:20vh;
 }
 #col2{
-    margin-right:25%;
+    margin-right:30%;
     margin-left:1%;
     flex:50%;
 }
@@ -91,17 +91,54 @@ body{
 #body1{
     position:fixed;
     width:30%;
-    background-color:white;
     margin-left:5%;
     margin-right:1%;
     border-radius:0.63vh;
-    height:57vh;
+}
+#body11{
+    height:10vh;
+    margin-bottom:2vh;
+    background-color:white;
+    border-radius:0.63vh;
+}
+#body12{
+    height:44vh;
+    background-color:white;
+    border-radius:0.63vh;
+    overflow:auto;
+}
+#titlee{
+    font-weight:800;
+    font-size:2.52vh;
+    margin-left:10%;
+}
+hr{
+    margin-left:10%;
+    margin-right:10%;
+    border:none;
+    border-top:0.126vh solid;
+}
+p{
+    margin-left:10%;
+    margin-right:10%;
+}
+input{
+    outline:none;
+    width:80%;
+    border:none;
+    border-radius:0.63vh;
+    border:0.126vh solid;
+    margin-left:10%;
 }
 #body2{
     width:70%;
     margin-right:5%;
     margin-left:38%;
     padding-bottom:2.2vh;
+}
+#body2title{
+    font-weight:800;
+    font-size:2.52vh;
 }
 #card{
     background-color:white;
@@ -122,5 +159,17 @@ body{
     }
     #headerr a{
         font-size:2.2vh;
+    }
+    #col1{
+        margin-left:20%;
+    }
+    #col2{
+        margin-right:20%;
+    }
+    #titlee{
+        font-size:1.8vh;
+    }
+    p{
+        font-size:1.7vh;
     }
 }
