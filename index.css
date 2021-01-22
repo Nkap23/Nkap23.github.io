@@ -111,7 +111,7 @@ footer img{
     padding-left:1vw;
     padding-right:1vw;
 }
-@media only screen and (max-width: 1244px){
+@media only screen and (max-width:1244px){
     header{
         display:block;
         text-align:center;
@@ -119,6 +119,27 @@ footer img{
     }
     #headercol1{
         padding-bottom:1vh;
+    }
+    .active{
+        display:block;
+        text-align:center;
+        padding-bottom:2vh;
+    }
+    #intro{
+        padding-top:3vh;
+    }
+}
+@media only screen and (max-width:480px){
+    header{
+        display:block;
+        text-align:center;
+        padding-bottom:2vh;
+    }
+    #headercol1{
+        padding-bottom:1vh;
+    }
+    #headercol2{
+        font-size:2.2vh;
     }
     .active{
         display:block;
