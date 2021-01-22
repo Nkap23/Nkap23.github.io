@@ -13,7 +13,7 @@ header{
     background-color:black;
     color:#ffde59;
 }
-.active{
+.act{
     position:fixed;
     display:flex;
     width:100%;
@@ -42,14 +42,11 @@ header span{
 #intro{
     position:relative;
     top:13vh;
-    height:40vh;
+    height:50vh;
     background-color:#ffde59;
     color:black;
     z-index:10;
-    padding-top:2vh;
-    padding-bottom:2vh;
-    padding-left:8vw;
-    padding-right:8vw;
+    text-align:center;
 }
 #body{
     position:relative;
@@ -100,7 +97,7 @@ footer div{
     text-align:center;
 }
 footer span{
-    opacity:0.6;
+    opacity:0.5;
 }
 figure{
     display:inline-block;
@@ -118,7 +115,7 @@ footer img{
     #headercol1{
         padding-bottom:1vh;
     }
-    .active{
+    .act{
         display:block;
         text-align:center;
         padding-bottom:2vh;
@@ -147,19 +144,26 @@ footer img{
 }
 @media only screen and (max-width:700px){
     figure{
-        margin-left:25px;
-        margin-right:25px;
+        margin-left:21px;
+        margin-right:21px;
     }
 }
 @media only screen and (max-width:560px){
     figure{
-        margin-left:15px;
-        margin-right:15px;
+        margin-left:11px;
+        margin-right:11px;
     }
 }
-@media only screen and (max-width:560px){
+@media only screen and (max-width:480px){
     figure{
-        margin-left:10px;
-        margin-right:10px;
+        margin-left:6px;
+        margin-right:6px;
     }
 }
+/*.mySlides{
+  display:none;
+}
+.mySlides img{
+    height:20vh;
+    width:50%;
+}*/
