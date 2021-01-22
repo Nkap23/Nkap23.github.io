@@ -1,8 +1,8 @@
-function hidee(obj)
-{
-    var el1=document.getElementById('resumeb');
-    el1.style.display='none';
-    var el2=document.getElementById('bottomm');
-    el2.style.display='block';
-}
-
+$(window).on("scroll",function(){
+    if($(window).scrollTop()>320) {
+        $("header").addClass("active");
+    }
+    else{
+       $("header").removeClass("active");
+    }
+});
