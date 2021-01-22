@@ -1,5 +1,5 @@
 $(window).on("scroll",function(){
-    if($(window).scrollTop()>320) {
+    if($(window).scrollTop()>$('#intro').height()){
         $("header").addClass("active");
     }
     else{
