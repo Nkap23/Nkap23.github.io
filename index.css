@@ -108,8 +108,6 @@ figure{
 }
 footer img{
     height:3vh;
-    padding-left:1vw;
-    padding-right:1vw;
 }
 @media only screen and (max-width:1244px){
     header{
@@ -125,8 +123,8 @@ footer img{
         text-align:center;
         padding-bottom:2vh;
     }
-    #intro{
-        padding-top:3vh;
+    #headercol2{
+        font-size:2.7vh;
     }
 }
 @media only screen and (max-width:480px){
@@ -146,7 +144,22 @@ footer img{
         text-align:center;
         padding-bottom:2vh;
     }
-    #intro{
-        padding-top:3vh;
+}
+@media only screen and (max-width:700px){
+    figure{
+        margin-left:25px;
+        margin-right:25px;
+    }
+}
+@media only screen and (max-width:560px){
+    figure{
+        margin-left:15px;
+        margin-right:15px;
+    }
+}
+@media only screen and (max-width:560px){
+    figure{
+        margin-left:10px;
+        margin-right:10px;
     }
 }
