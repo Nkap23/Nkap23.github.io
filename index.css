@@ -124,10 +124,7 @@ footer img{
         display:block;
         text-align:center;
         padding-bottom:2vh;
-    }
-    #intro{
-        padding-top:3vh;
-    }
+    }}
 }
 @media only screen and (max-width:480px){
     header{
@@ -145,8 +142,5 @@ footer img{
         display:block;
         text-align:center;
         padding-bottom:2vh;
-    }
-    #intro{
-        padding-top:3vh;
     }
 }
