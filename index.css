@@ -260,10 +260,10 @@ footer img{
         text-align:center;
     }
 }
-@media only screen and (max-width:320px){
+@media only screen and (max-width:340px){
     #introtext{
-        height:60vh;
-        line-height:60vh;
+        height:65vh;
+        line-height:65vh;
         flex:70%;
         text-align:center;
     }
