@@ -57,15 +57,10 @@ header span{
     flex:30%;
 }
 #introtext{
-    height:40vh;
-    line-height:40vh;
     flex:70%;
     text-align:center;
-}
-#introtext span{
-    display:inline-block;
-    vertical-align:middle;
-    line-height:normal;
+    padding-top:5vh;
+    padding-bottom:5vh;
 }
 #introtext strong{
     color:purple;
@@ -138,6 +133,7 @@ figure{
 footer img{
     height:3vh;
 }
+
 @media only screen and (max-width:1244px){
     header{
         display:block;
@@ -210,6 +206,7 @@ footer img{
         top:13.3vh;
     }
 }
+
 @media only screen and (max-width:700px){
     figure{
         margin-left:21px;
@@ -237,37 +234,7 @@ footer img{
         text-align:center;
     }
 }
-@media only screen and (max-width:600px){
-    #introtext{
-        height:45vh;
-        line-height:45vh;
-        flex:70%;
-        text-align:center;
-    }
-}
-@media only screen and (max-width:500px){
-    #introtext{
-        height:50vh;
-        line-height:50vh;
-        flex:70%;
-        text-align:center;
-    }
-}
-@media only screen and (max-width:400px){
-    #introtext{
-        height:55vh;
-        line-height:55vh;
-        flex:70%;
-        text-align:center;
-    }
-}
 @media only screen and (max-width:340px){
-    #introtext{
-        height:65vh;
-        line-height:65vh;
-        flex:70%;
-        text-align:center;
-    }
     #intro img{
         height:30vh;
         padding-top:2.5vh;
