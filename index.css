@@ -51,8 +51,8 @@ header span{
     display:flex;
 }
 #intro img{
-    height:38vh;
-    padding-top:1vh;
+    height:35vh;
+    padding-top:2.5vh;
 }
 #introimg{
     flex:30%;
@@ -269,6 +269,6 @@ footer img{
     }
     #intro img{
         height:30vh;
-        padding-top:1vh;
+        padding-top:2.5vh;
     }
 }
