@@ -44,7 +44,6 @@ header span{
     top:13vh;
     background-color:#ffde59;
     color:black;
-    z-index:10;
     padding-left:8vw;
     padding-right:8vw;
     font-size:2.5vh;
@@ -69,7 +68,7 @@ header span{
     line-height:normal;
 }
 #introtext strong{
-    color:red;
+    color:purple;
 }
 button{
     border:none;
@@ -83,7 +82,6 @@ button{
 #body{
     position:relative;
     top:13vh;
-    z-index:10;
     background-color:black;
     color:#ffde59;
     padding-top:1vh;
@@ -117,7 +115,6 @@ summary{
 footer{
     position:relative;
     top:13vh;
-    z-index:10;
     background-color:#ffde59;
     color:black;
     padding-top:1vh;
@@ -228,6 +225,7 @@ footer img{
         margin-right:6px;
     }
 }
+
 @media only screen and (max-width:970px){
     #intro{
         display:block;
