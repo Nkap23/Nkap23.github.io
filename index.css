@@ -79,6 +79,9 @@ button{
     height:35px;
     width:200px;
 }
+button:hover{
+    background-color:blue;
+}
 #body{
     position:relative;
     top:13vh;
