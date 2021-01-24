@@ -48,6 +48,7 @@ header span{
     padding-right:8vw;
     font-size:2.5vh;
     display:flex;
+    font-family:"Times New Roman";
 }
 #intro img{
     height:35vh;
@@ -73,6 +74,7 @@ button{
     border-radius:20px;
     height:35px;
     width:200px;
+    font-family:"Times New Roman";
 }
 button:hover{
     background-color:blue;
