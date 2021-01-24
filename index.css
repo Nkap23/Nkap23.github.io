@@ -42,11 +42,43 @@ header span{
 #intro{
     position:relative;
     top:13vh;
-    height:50vh;
     background-color:#ffde59;
     color:black;
     z-index:10;
+    padding-left:8vw;
+    padding-right:8vw;
+    font-size:2.5vh;
+    display:flex;
+}
+#intro img{
+    height:38vh;
+    padding-top:1vh;
+}
+#introimg{
+    flex:30%;
+}
+#introtext{
+    height:40vh;
+    line-height:40vh;
+    flex:70%;
     text-align:center;
+}
+#introtext span{
+    display:inline-block;
+    vertical-align:middle;
+    line-height:normal;
+}
+#introtext strong{
+    color:purple;
+}
+button{
+    border:none;
+    outline:none;
+    background-color:purple;
+    color:white;
+    border-radius:20px;
+    height:35px;
+    width:200px;
 }
 #body{
     position:relative;
@@ -123,6 +155,12 @@ footer img{
     #headercol2{
         font-size:2.7vh;
     }
+    #intro{
+        top:14vh;
+    }
+    #body{
+        top:14vh;
+    }
 }
 @media only screen and (max-width:480px){
     header{
@@ -140,6 +178,36 @@ footer img{
         display:block;
         text-align:center;
         padding-bottom:2vh;
+    }
+    #intro{
+        top:13.7vh;
+    }
+    #body{
+        top:13.7vh;
+    }
+}
+@media only screen and (max-width:370px){
+    header{
+        display:block;
+        text-align:center;
+        padding-bottom:2vh;
+    }
+    #headercol1{
+        padding-bottom:1vh;
+    }
+    #headercol2{
+        font-size:1.8vh;
+    }
+    .active{
+        display:block;
+        text-align:center;
+        padding-bottom:2vh;
+    }
+    #intro{
+        top:13.3vh;
+    }
+    #body{
+        top:13.3vh;
     }
 }
 @media only screen and (max-width:700px){
@@ -160,10 +228,47 @@ footer img{
         margin-right:6px;
     }
 }
-/*.mySlides{
-  display:none;
+@media only screen and (max-width:970px){
+    #intro{
+        display:block;
+    }
+    #introimg{
+        text-align:center;
+    }
 }
-.mySlides img{
-    height:20vh;
-    width:50%;
-}*/
+@media only screen and (max-width:600px){
+    #introtext{
+        height:45vh;
+        line-height:45vh;
+        flex:70%;
+        text-align:center;
+    }
+}
+@media only screen and (max-width:500px){
+    #introtext{
+        height:50vh;
+        line-height:50vh;
+        flex:70%;
+        text-align:center;
+    }
+}
+@media only screen and (max-width:400px){
+    #introtext{
+        height:55vh;
+        line-height:55vh;
+        flex:70%;
+        text-align:center;
+    }
+}
+@media only screen and (max-width:400px){
+    #introtext{
+        height:60vh;
+        line-height:60vh;
+        flex:70%;
+        text-align:center;
+    }
+    #intro img{
+        height:30vh;
+        padding-top:1vh;
+    }
+}
