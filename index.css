@@ -35,6 +35,22 @@ header{
     flex:50%;
     z-index:20;
 }
+a{
+    outline:none;
+    border:none;
+    text-decoration:none;
+    color:inherit;
+}
+/*header a{
+    text-decoration:none;
+    color:inherit;
+}
+#headercol2 span.selected a{
+    color:lightgreen;
+}
+.act #headercol2 span.selected a{
+    color:red;
+}*/
 header span{
     z-index:20;
     margin:1.65vw;
@@ -96,11 +112,6 @@ p strong{
 }
 #profiles{
     text-align:center;
-}
-a{
-    outline:none;
-    border:none;
-    text-decoration:none;
 }
 hr{
     display:block;
