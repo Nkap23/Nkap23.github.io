@@ -61,8 +61,8 @@ header span{
 }
 #introtext{
     padding-left:5%;
-    padding-top:7.3vh;
-    padding-right:7.3vh;
+    padding-top:8.8vh;
+    padding-bottom:8.8vh;
 }
 #introtext span{
     font-family:"Courier";
@@ -71,6 +71,13 @@ header span{
 #introtext p{
     font-family:"Helvetica";
 }
+#introtext .showp{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-line-clamp:6;
+    -webkit-box-orient:vertical;
+}
 hr{
     display:block;
     height:2px;
@@ -78,25 +85,6 @@ hr{
     border-top:2px solid black;
     padding:0;
 }
-/*#readmore{
-    outline:none;
-    border:none;
-    text-decoration:none;
-    background-color:black;
-    color:white;
-    height:40px;
-    width:221.1px;
-    text-align:center;
-    font-size:20px;
-}
-.arrow{
-    border:solid white;
-    border-width:0 3px 3px 0;
-    display:inline-block;
-    padding:5px;
-    transform:rotate(-45deg);
-    -webkit-transform:rotate(-45deg);
-}*/
 #navbutton{
     text-align:center;
 }
@@ -127,6 +115,9 @@ button:hover{
 .left{
     transform:rotate(135deg);
     -webkit-transform:rotate(135deg);
+}
+.hidehead,.hidep,.hideimg{
+    display:none;
 }
 #body{
     position:relative;
@@ -211,5 +202,48 @@ button:hover{
     }
     #body{
         top:13.3vh;
+    }
+}
+
+@media only screen and (max-width:1350px){
+    #intro{
+        display:block;
+        padding-top:3vh;
+    }
+    #intro{
+        text-align:center;
+    }
+    #introtext{
+        text-align:left;
+        padding-top:3vh;
+        padding-bottom:3vh;
+    }
+    #introtext .showp{
+        overflow:hidden;
+        text-overflow:ellipsis;
+        display:-webkit-box;
+        -webkit-line-clamp:5;
+        -webkit-box-orient:vertical;
+    }
+    #intro img{
+        width:100%;
+    }
+}
+@media only screen and (max-width:650px){
+    button{
+        height:40px;
+        width:200px;
+    }
+}
+@media only screen and (max-width:650px){
+    button{
+        height:40px;
+        width:150px;
+    }
+}
+@media only screen and (max-width:400px){
+    button{
+        height:40px;
+        width:120px;
     }
 }

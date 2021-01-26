@@ -20,21 +20,43 @@
             </div>
         </header>
         <div id='intro'>
-            <img src='blog1.png'>
+            <img src='blog1.png' class="showimg">
+            <img src='blog2.png' class="hideimg">
+            <img src='blog3.jpeg' class='hideimg'>
+            <img src='blog4.jpeg' class="hideimg">
             <div id="introtext">
                 <span>FEATURED BLOGS</span>
                 <!--headings-->
-                <h3 class="toshowhead">TensorFlow 2 Object Detection API with Google Colab</h3>
+                <h3 class="showhead">TensorFlow 2 Object Detection API With Google Colab</h3>
+                <h3 class="hidehead">Image & Video Background Removal using Deep Learning</h3>
+                <h3 class="hidehead">Training your First Machine Learning Model with sklearn</h3>
+                <h3 class="hidehead">NLP: Basic Pattern Matching using Python's spaCy library</h3>
                 <hr>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat dui id massa cursus mollis. Mauris quam nisi, aliquet eu augue at, interdum luctus arcu.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat dui id massa cursus mollis. Mauris quam nisi, aliquet eu augue at, interdum luctus arcu...
+                <p class="showp">
+                    This article will guide you through all the steps required for object recognition model training, from collecting images for the model to testing the model!
+                    In this tutorial, we will use Google Colab (for model training) and Google Drive (for storage).
+                    Colab is a free Jupyter NoteBook environment hosted by Google that runs on the cloud. Google Colab provides free access to GPUs (Graphical Processing Units) and TPUs (Tensor Processing Units).
+                </p>
+                <p class="hidep">
+                    Background Removal is a process of separating the main object/image from its background.
+                    Deep learning is part of a broader family of machine learning methods based on artificial neural networks with representation learning.
+                    U-2-Net is a deep network model for Salient Object Detection.
+                    I have used the U-2-Net model along with OpenCV and Pillow library for Image and Video Background Removal. 
+                </p>
+                <p class="hidep">
+                    This article will guide you through all the steps required for Machine Learning Model Training, from data preprocessing to model evaluation!
+                    Machine Learning is teaching a computer to make predictions (on new unseen data) using the data it has seen in the past. Machine Learning involves building a model based on training data, to make predictions on other unseen data.
+                </p>
+                <p class="hidep">
+                    spaCy is a free open-source library for Natural Language Processing in Python.This blog will cover Basic Pattern Matching using spaCy.
+                    Some spaCy features include: Non-destructive tokenization, Pretrained word vectors, Named entity recognition, POS tagging
+                    Pattern Matching is the process of checking whether a set of tokens (A token can be considered as part of the text, such as characters or words) or phrases exist within a document/data.
                 </p>
                 <!--<button type="button" id="readmore">Read More &nbsp;<i class="arrow"></i></button>-->
                 <hr>
                 <div id="navbutton">
-                    <button type="button"><i class="arrow left"></i>&nbsp;PREVIOUS</button>
-                    <button type="button">NEXT&nbsp;<i class="arrow right"></i></button>
+                    <button type="button" onclick="prevfunc()"><i class="arrow left"></i>&nbsp;PREVIOUS</button>
+                    <button type="button" onclick="nextfunc()">NEXT&nbsp;<i class="arrow right"></i></button>
                 </div>
             </div>
         </div>
