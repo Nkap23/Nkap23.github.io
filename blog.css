@@ -61,8 +61,8 @@ header span{
 }
 #introtext{
     padding-left:5%;
-    padding-top:8.8vh;
-    padding-bottom:8.8vh;
+    padding-top:9vh;
+    padding-bottom:9vh;
 }
 #introtext span{
     font-family:"Courier";
@@ -218,13 +218,6 @@ button:hover{
         padding-top:3vh;
         padding-bottom:3vh;
         padding-left:0vh;
-    }
-    #introtext .showp{
-        overflow:hidden;
-        text-overflow:ellipsis;
-        display:-webkit-box;
-        -webkit-line-clamp:5;
-        -webkit-box-orient:vertical;
     }
     #intro img{
         width:100%;
