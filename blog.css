@@ -217,6 +217,7 @@ button:hover{
         text-align:left;
         padding-top:3vh;
         padding-bottom:3vh;
+        padding-left:0vh;
     }
     #introtext .showp{
         overflow:hidden;
