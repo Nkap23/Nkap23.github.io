@@ -124,12 +124,59 @@ button:hover{
     top:13vh;
     background-color:black;
     color:#ffde59;
-    padding-top:1vh;
-    padding-bottom:1vh;
+    padding-top:2vh;
+    padding-bottom:2vh;
     padding-left:8vw;
     padding-right:8vw;
     font-size:2.5vh;
     font-family:"Courier";
+}
+#body h3{
+    font-family:"Times New Roman";
+}
+.blogcontent{
+    background-color:#ffde59;
+    color:black;
+    border-radius:1vh;
+    display:flex;
+}
+.blogcontent img{
+    height:40vh;
+    width:30vw;
+    border-top-left-radius:1vh;
+    border-bottom-left-radius:1vh;
+}
+.blogtext{
+    padding-left:5%;
+    padding-top:2.2vh;
+    padding-bottom:2.2vh;
+    padding-right:5%;
+}
+.blogtext p{
+    font-family:"Helvetica";
+}
+footer{
+    position:relative;
+    top:13vh;
+    background-color:#ffde59;
+    color:black;
+    padding-top:1vh;
+    padding-bottom:1vh;
+    padding-left:8vw;
+    padding-right:8vw;
+}
+footer div{
+    text-align:center;
+}
+footer span{
+    opacity:0.5;
+}
+figure{
+    display:inline-block;
+    text-align:center;
+}
+footer img{
+    height:3vh;
 }
 
 @media only screen and (max-width:1244px){
@@ -239,5 +286,24 @@ button:hover{
     button{
         height:40px;
         width:120px;
+    }
+}
+
+@media only screen and (max-width:700px){
+    figure{
+        margin-left:21px;
+        margin-right:21px;
+    }
+}
+@media only screen and (max-width:560px){
+    figure{
+        margin-left:11px;
+        margin-right:11px;
+    }
+}
+@media only screen and (max-width:480px){
+    figure{
+        margin-left:6px;
+        margin-right:6px;
     }
 }
