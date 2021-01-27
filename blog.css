@@ -125,7 +125,7 @@ button:hover{
     background-color:black;
     color:#ffde59;
     padding-top:2vh;
-    padding-bottom:2vh;
+    padding-bottom:6vh;
     padding-left:8vw;
     padding-right:8vw;
     font-size:2.5vh;
@@ -305,5 +305,28 @@ footer img{
     figure{
         margin-left:6px;
         margin-right:6px;
+    }
+}
+@media only screen and (max-width:1200px){
+    .blogtext{
+        padding-top:1vh;
+        padding-bottom:3vh;
+    }
+}
+@media only screen and (max-width:960px){
+    .blogcontent{
+        display:block;
+        text-align:center;
+    }
+    .blogcontent img{
+        width:100%;
+        border-radius:1vh;
+        border-bottom-right-radius:0vh;
+        border-bottom-left-radius:0vh;
+    }
+    .blogtext{
+        padding-top:1vh;
+        padding-bottom:5vh;
+        text-align:left;
     }
 }
