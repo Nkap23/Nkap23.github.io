@@ -1,12 +1,3 @@
-$(window).on("scroll",function(){
-    if($(window).scrollTop()>$('#intro').height()){
-        $("header").addClass("act");
-    }
-    else{
-       $("header").removeClass("act");
-    }
-});
-
 current=1;
 currentp=6;
 currentimg=0;
