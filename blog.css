@@ -58,6 +58,7 @@ header span{
 #intro img{
     height:60vh;
     width:40vw;
+    box-shadow:rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 #introtext{
     padding-left:5%;
@@ -145,6 +146,7 @@ button:hover{
     width:30vw;
     border-top-left-radius:1vh;
     border-bottom-left-radius:1vh;
+    box-shadow:rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .blogtext{
     padding-left:5%;
@@ -268,6 +270,7 @@ footer img{
     }
     #intro img{
         width:100%;
+        border-radius:2vh;
     }
 }
 @media only screen and (max-width:650px){
