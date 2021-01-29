@@ -112,9 +112,12 @@ button:hover{
 }
 .blogtext{
     padding-left:5%;
-    padding-top:2.2vh;
-    padding-bottom:2.2vh;
+    padding-top:2.7vh;
+    padding-bottom:2.7vh;
     padding-right:5%;
+}
+.blogtext h3{
+    margin-bottom:0.5vh;
 }
 .blogtext p{
     font-family:"Candara";
