@@ -26,13 +26,16 @@ header{
 }
 #body img{
     width:100%;
+    border-radius:0.63vh;
 }
-hr{
-    display:block;
-    height:2px;
-    border:0;
-    border-top:2px solid #ffde59;
-    padding:0;
+.diffcol{
+    color:#57ffdc;
+}
+#maincontent{
+    font-family:"Candara";
+}
+#sugg{
+    color:#1CE351;
 }
 /* media queries */
 @media only screen and (max-width:1150px){

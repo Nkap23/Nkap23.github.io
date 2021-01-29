@@ -33,6 +33,13 @@
     -webkit-line-clamp:6;
     -webkit-box-orient:vertical;
 }
+.blogtext p{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-line-clamp:4;
+    -webkit-box-orient:vertical;
+}
 hr{
     display:block;
     height:2px;
@@ -110,7 +117,7 @@ button:hover{
     padding-right:5%;
 }
 .blogtext p{
-    font-family:"Helvetica";
+    font-family:"Candara";
 }
 /* media queries */
 @media only screen and (max-width:1350px){
