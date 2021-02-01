@@ -64,6 +64,9 @@ hr{
 summary{
     outline:none;
 }
+details img{
+    padding-right:1.5vh;
+}
 /* media queries */
 @media only screen and (max-width:970px){
     #intro{
