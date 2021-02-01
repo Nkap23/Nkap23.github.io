@@ -79,6 +79,7 @@ footer img{
     }
     #headercol1{
         padding-bottom:1vh;
+        padding-left:0;
     }
     .act{
         display:block;
