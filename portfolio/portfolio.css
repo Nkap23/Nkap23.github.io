@@ -1,0 +1,85 @@
+#intro{
+    position:relative;
+    top:13vh;
+    background-color:#ffde59;
+    color:black;
+    padding-left:8vw;
+    padding-right:8vw;
+    font-size:2.5vh;
+    padding-top:1.5vh;
+    padding-bottom:1.5vh;
+    font-family:"Times New Roman";
+}
+.hrtext{
+    display:flex;
+    align-items:center;
+}
+.hrbefore,.hrafter{
+    flex:auto;
+}
+.hrcontent{
+    text-align:center;
+    padding-left:1vh;
+    padding-right:1vh;
+}
+hr{
+    display:block;
+    height:2px;
+    border:0;
+    border-top:2px solid black;
+    padding:0;
+    align-items:center;
+}
+h2{
+    margin:1vh;
+    padding:0;
+}
+.row{
+    display:flex;
+}
+.col{
+    flex:33.3%;
+    text-align:center;
+    padding-bottom:1.5vh;
+}
+.col:hover{
+    background-color:black;
+    color:#ffde59;
+    transition:0.5s;
+}
+#body{
+    position:relative;
+    top:13vh;
+    background-color:black;
+    color:#ffde59;
+    padding-top:1vh;
+    padding-bottom:1vh;
+    padding-left:8vw;
+    padding-right:8vw;
+    font-size:2.5vh;
+    font-family:"Courier";
+}
+@media only screen and (max-width:660px){
+    h2{
+        font-size:3vh;
+    }
+    .row{
+        font-size:2vh;
+    }
+    .hrcontent{
+        padding-left:0.8vh;
+        padding-right:0.8vh;
+    }
+}
+@media only screen and (max-width:450px){
+    h2{
+        font-size:2.5vh;
+    }
+    .row{
+        font-size:1.5vh;
+    }
+    .hrcontent{
+        padding-left:0.5vh;
+        padding-right:0.5vh;
+    }
+}
