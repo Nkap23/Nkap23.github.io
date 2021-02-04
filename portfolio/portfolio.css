@@ -71,6 +71,20 @@ h2{
     padding:0;
     align-items:center;
 }
+.flexbox{
+    display:flex;
+}
+.flex1{
+    flex:50%;
+    text-align:left;
+}
+.flex2{
+    flex:50%;
+    text-align:right;
+}
+.diffcol{
+    color:#57ffdc;
+}
 @media only screen and (max-width:660px){
     h2{
         font-size:3vh;
