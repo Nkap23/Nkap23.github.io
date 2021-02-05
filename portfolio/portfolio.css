@@ -85,6 +85,9 @@ h2{
 .diffcol{
     color:#57ffdc;
 }
+summary{
+    outline:none;
+}
 @media only screen and (max-width:660px){
     h2{
         font-size:3vh;
