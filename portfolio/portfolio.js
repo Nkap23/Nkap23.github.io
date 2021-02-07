@@ -20,22 +20,22 @@ $("#scroll4").click(function(){
 });
 $("#scroll5").click(function(){
     $('html, body').animate({
-        scrollTop:($("#projects").offset().top-$("#intro").offset().top)
+        scrollTop:($("#leadership").offset().top-$("#intro").offset().top)
     },1500);
 });
 $("#scroll6").click(function(){
     $('html, body').animate({
-        scrollTop:($("#blogs").offset().top-$("#intro").offset().top)
+        scrollTop:($("#projects").offset().top-$("#intro").offset().top)
     },1500);
 });
 $("#scroll7").click(function(){
     $('html, body').animate({
-        scrollTop:($("#publications").offset().top-$("#intro").offset().top)
+        scrollTop:($("#blogs").offset().top-$("#intro").offset().top)
     },1500);
 });
 $("#scroll8").click(function(){
     $('html, body').animate({
-        scrollTop:($("#courses").offset().top-$("#intro").offset().top)
+        scrollTop:($("#publications").offset().top-$("#intro").offset().top)
     },1500);
 });
 $("#scroll9").click(function(){
