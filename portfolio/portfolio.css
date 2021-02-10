@@ -91,6 +91,12 @@ summary{
 details img{
     padding-right:1.5vh;
 }
+ol{
+    padding-left:15px;
+}
+ul{
+    padding-left:20px;
+}
 @media only screen and (max-width:1062px){
     .flexbox{
         display:block;
