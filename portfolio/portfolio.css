@@ -138,3 +138,19 @@ ul{
         padding-right:0.5vh;
     }
 }
+@media only screen and (max-width:900px){
+    #imgflex{
+        display:block;
+        text-align:center;
+    }
+    #imgcontent{
+        text-align:left;
+        padding:0;
+        padding-top:2vh;
+    }
+}
+@media only screen and (max-width:400px){
+    #imgflex img{
+        height:30vh;
+    }
+}
