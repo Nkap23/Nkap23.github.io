@@ -71,6 +71,15 @@ h2{
     padding:0;
     align-items:center;
 }
+#imgflex{
+    display:flex;
+}
+#imgcontent{
+    padding-left:5vh;
+}
+#imgflex img{
+    height:40vh;
+}
 .flexbox{
     display:flex;
 }
